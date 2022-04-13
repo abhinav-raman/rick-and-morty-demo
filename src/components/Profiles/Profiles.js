@@ -1,6 +1,6 @@
 // could have used fetch() too, but axios manages better response and error handling
 import axios from "axios";
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect } from "react";
 
 // importing BASE_URL, it contains the base url for the api.
 import { BASE_URL } from "../../contants/baseUrl";
