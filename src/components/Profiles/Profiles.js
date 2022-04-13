@@ -56,7 +56,8 @@ const Profiles = () => {
 		getCharacterData(nextPageUrl);
 	};
 
-	// mantaining separate code snippet for pagination link
+	// mantaining separate code snippet for clickable prev/next pagination links
+  // could have used page number styled pagination too for fetching specific page data if time allowed
 	// could have separate component too, but in this case we won't be reusing this
 	const pageNavigationLinks = (
 		<div className={classes["profiles-pagination-links"]}>
