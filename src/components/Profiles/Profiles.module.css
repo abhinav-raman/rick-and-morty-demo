@@ -1,0 +1,29 @@
+.profiles-container {
+  padding: 2rem;
+}
+
+.page-number-indicator-text {
+  margin: 0;
+}
+
+.profiles-pagination-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.pagination-links {
+  cursor: pointer;
+  color: blue;
+}
+
+.profile-list {
+  list-style-type: none;
+  padding-inline-start: 0
+}
+
+.disabled {
+  pointer-events: none;
+  color: grey;
+}

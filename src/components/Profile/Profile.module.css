@@ -1,0 +1,35 @@
+.profile-container {
+	border: 1px solid black;
+}
+
+.profile-container__details {
+	display: flex;
+}
+
+.profile-details > p {
+	width: 100%;
+}
+
+.profile-picture {
+	max-width: 300px;
+	min-width: 150px;
+	width: 20%;
+	height: 20%;
+	aspect-ratio: initial;
+}
+
+.details-title {
+	font-weight: 700;
+}
+
+/* reponsiveness for mobile devices @480px */
+@media screen and (max-width: 480px) {
+	.profile-picture {
+		width: 100%;
+		height: auto;
+		aspect-ratio: initial;
+	}
+	.profile-container__details {
+    display: block;
+	}
+}
